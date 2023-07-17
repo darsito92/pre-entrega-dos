@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'normal';
+  src: url("../assets/font/Inter-Regular.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'normal';
+}
+/* Fondo especifico para el index.html*/
+.fondo{
+    background-image: url(../assets/img/perritohome.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.header{
+  background-color: rgba(240, 248, 255, 0.063);
+  margin-top: 1rem;
+}
+.header-pages{
+  margin-top: 1rem;
+  background-color: #605555;
+}
+.nombre-sitio{
+  color:#FCDABB;
+  display: flex;
+  flex-direction: column;
+  
+}
+.nombre-sitio span{
+  font-size: .8rem;
+  text-align: center;
+}
+.color-principal{
+  color: aliceblue;
+}
+.pie-pagina{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color: #605555;
+}
+.boton{
+  background-color: #FCDABB;
+  border:none;
+  border-radius: 1rem;
+  padding: .5rem 1.5rem;
+}
+
+@media (max-width:390px){
+  .fondo{
+    background-position: bottom;
+  }
+  .nombre-sitio{
+    margin-left: 1rem;
+  }
+ .pie-pagina{
+  font-size: .8rem;
+  padding-top: 1rem;
+ }
+}
