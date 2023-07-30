@@ -1,0 +1,4 @@
+.contenedor{
+    @include flex(center,none);
+    flex-direction: column;
+  }

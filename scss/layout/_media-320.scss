@@ -1,0 +1,19 @@
+@media (max-width:320px){
+    .fondo{
+      background-position: bottom;
+    }
+    .nombre-sitio{
+      margin-left: 1rem;
+    }
+   .pie-pagina{
+    font-size: .8rem;
+    padding-top: 1rem;
+   }
+   .contenedor{
+    text-align: center;
+   }
+   .parrafo-dos{
+    display: none;
+    flex-direction: column;
+   }
+  }
