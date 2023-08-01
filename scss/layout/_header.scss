@@ -5,11 +5,11 @@
 
 .header-pages {
     margin-top: 1rem;
-    background-color: #605555;
+    background-color: $bg-color;
 }
 
 .nombre-sitio {
-    color: #FCDABB;
+    color: $color-principal;
     display: flex;
     flex-direction: column;
     padding-left: 10px;

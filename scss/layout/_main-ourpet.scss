@@ -6,7 +6,7 @@
   }
   .title-o{
     text-align: center;
-    color: #626262;
+    color: $bg-color;
    padding-top:1.875rem;
   }
   .card-container {
@@ -22,14 +22,12 @@
     padding: 1.25rem;
     margin: 1.25rem;
     text-align: center;
+    img {
+      width: 80%;
+      max-width: 12.5rem;
+      height: auto;
+    }
   }
-  
-  .card img {
-    width: 80%;
-    max-width: 12.5rem;
-    height: auto;
-  }
-  
   
   .card-title {
     margin-top: .625rem;
