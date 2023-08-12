@@ -1,6 +1,7 @@
 @media (max-width:390px){
     .fondo{
-      background-position: bottom;
+      background-position: cover;
+      height: 100vh;
     }
     .nombre-sitio{
       margin-left: 1rem;
@@ -9,6 +10,7 @@
     font-size: .8rem;
     padding-top: 1rem;
    }
+  
    .contenedor{
     text-align: center;
    }
@@ -19,5 +21,33 @@
    .card-container{
     flex-direction: column;
    }
- 
+   .item {
+    img {
+      width: 50%;
+    }
+  }
+  .shampo{
+    width: 30%;
+  }
+ main{
+  padding-top: 0;
+
+  img{
+    background-image: cover;
+  }
+ }
+ .footer-c {
+  position:relative;
+  bottom: 0;
+  text-align: center;
+}
+ .footer-o{
+  margin-top: 850px;
+  position: relative;
+   }
+
+   .footer-h{
+    margin-top:-60px;
+    position: relative;
+     }
   }

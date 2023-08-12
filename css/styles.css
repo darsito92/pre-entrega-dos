@@ -47,7 +47,7 @@ main {
 .contenedor {
   display: flex;
   justify-content: center;
-  align-items: none;
+  align-items: center;
   flex-direction: column; }
 
 main {
@@ -130,7 +130,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 8rem;
+  padding-top: 4rem;
   margin-bottom: 2.3rem; }
 
 .container-c {
@@ -211,7 +211,7 @@ main {
 .pie-pagina {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: none;
   background-color: #605555; }
 
 @media (max-width: 768px) {
@@ -225,12 +225,34 @@ main {
     padding-top: 10rem; }
   main {
     padding-top: 100px;
-    height: 700px;
-    padding-bottom: 100px; } }
+    height: 800px;
+    padding-bottom: 100px; }
+  .container-c {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%; }
+  .inferior-c {
+    flex-direction: column;
+    max-width: 100%;
+    flex: 2; }
+  .container-c-text {
+    width: 100%; }
+  .footer-c {
+    flex: 1;
+    margin-top: 380px; }
+  .img-c img {
+    width: 70%;
+    margin-left: 0; }
+  .item img {
+    width: 50%; }
+  .shampo {
+    width: 18%; } }
 
 @media (max-width: 390px) {
   .fondo {
-    background-position: bottom; }
+    background-position: cover;
+    height: 100vh; }
   .nombre-sitio {
     margin-left: 1rem; }
   .pie-pagina {
@@ -242,4 +264,22 @@ main {
     display: none;
     flex-direction: column; }
   .card-container {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .item img {
+    width: 50%; }
+  .shampo {
+    width: 30%; }
+  main {
+    padding-top: 0; }
+    main img {
+      background-image: cover; }
+  .footer-c {
+    position: relative;
+    bottom: 0;
+    text-align: center; }
+  .footer-o {
+    margin-top: 850px;
+    position: relative; }
+  .footer-h {
+    margin-top: -60px;
+    position: relative; } }

@@ -1,5 +1,5 @@
 .contenedor{
-    @include flex(center,none);
+    @include flex(center,center);
     flex-direction: column;
   }
   main{

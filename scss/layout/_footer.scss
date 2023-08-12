@@ -1,8 +1,8 @@
 .pie-pagina {
-    @include flex(center, center);
+    @include flex(center,none);
     background-color:$bg-color;
-    
 
+    
 }
 
 
