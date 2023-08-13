@@ -2,7 +2,7 @@
   main{
       
     padding-top:100px;
-    height: 800px;
+    height: auto;
     padding-bottom:100px;
 }
     .pie-pagina{
@@ -22,12 +22,24 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      max-width: 100%;
+      width: 100%;
     }
    
+    .credit-c {
+      @include flex(center,center);
+      background-color: #FCDABB;
+      width: 35%;
+      border-radius: 5px;
+      padding: .5rem;
+      margin-bottom: .6rem;
+      img {
+          width: 10%;
+          margin-right: .625rem;
+      }
+  }
       .inferior-c{
         flex-direction: column;
-        max-width: 100%;
+        width: 100%;
         flex:2;
       }
       .container-c-text{
@@ -35,7 +47,7 @@
       }
     .footer-c{
       flex:1;
-      margin-top: 380px;
+      margin-top: -50px;
     }
     .img-c{
       img{

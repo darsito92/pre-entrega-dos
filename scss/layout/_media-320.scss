@@ -38,7 +38,7 @@
  }
  .footer-c {
   position:relative;
-  bottom: 0;
+  z-index: 1;
   text-align: center;
 }
  .footer-o{
@@ -50,4 +50,89 @@
     margin-top:-60px;
     position: relative;
      }
+     .superior-c {
+      @include flex(center,center);
+      padding-top: 4rem;
+      margin-bottom: 2.3rem;
+  }
+  
+  .container-c {
+      
+      width:50;
+  }
+  
+  .container-c-text {
+      flex-direction: column;
+      width: 100%;
+      margin-left: 0;
+      
+  }
+  
+  .img-c {
+      img {
+     
+      width: 100%;
+  }}
+  
+  
+  .text-c {
+      font-size: .625rem;
+      margin-top: .6rem;
+     
+  }
+  
+  .number {
+      font-size: 1rem;
+  }
+  
+  .text-c-dos {
+      font-size: .5625rem;
+      width: 70%;
+      margin-left:0;
+      color: #3a363696;
+  }
+  
+  .credit-c {
+      @include flex(center,center);
+      background-color: #FCDABB;
+      width: 100%;
+      border-radius: 5px;
+      padding: .5rem;
+      margin-bottom: .6rem;
+      img {
+          width: 10%;
+          margin-right: .625rem;
+      }
+  }
+  
+  .inferior-c {
+      display: flex;
+      justify-content: center;
+      background-color: #3A3636;
+      width: 100%;
+      height: auto;
+      color: #FBF6F6;
+      position: relative;
+  }
+  
+  .title-inf {
+      padding-top: 1rem;
+      font-size: 1.6rem;
+      margin-left: 3rem;
+  }
+  
+  .datos {
+      @include flex(start,none);
+      margin-left: 3rem;
+      margin-top: 1rem;
+      color: #FBF6F6;
+      font-size: .8rem;
+      img {
+          width:10%;
+          margin-right: .5rem;
+      }
+  }
+
+
+   
   }
