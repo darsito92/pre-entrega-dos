@@ -1,6 +1,6 @@
 # Proyecto final 
 
-![Cozy House]
+# [Cozy House]
 ![cachoros](https://github.com/darsito92/pre-entrega-dos/assets/125772013/5bace300-b5ef-40ed-9e43-fa2fd4c8c82e)
 
 Proyecto realizado con Sass para el curso de desarrollo web.
