@@ -1,6 +1,7 @@
 # Proyecto final 
 
-![Cozy House](/assets/img/perritohome.avifpath-to-your-cozy-house-image.png)
+![Cozy House]
+![cachoros](https://github.com/darsito92/pre-entrega-dos/assets/125772013/5bace300-b5ef-40ed-9e43-fa2fd4c8c82e)
 
 Proyecto realizado con Sass para el curso de desarrollo web.
 
@@ -25,12 +26,12 @@ Este proyecto es un sitio web de refugio para mascotas llamado "Cozy House". El 
 - HTML
 - Sass
 - Bootstrap
-- Node.js (para la compilación de estilos)
+- Node.js 
 
 ## Autor
 
 - Nombre: Diego Sepulveda
-- Contacto: tu@email.com
+- Contacto: diego.sepulvedat92@gmail.com
 
 ## Licencia
 
